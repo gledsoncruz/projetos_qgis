@@ -5,7 +5,7 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="spatialite" checked="Qt::Checked" id="teste20180224104436467" source="dbname='C:/projetos/projetos_qgis/dbteste.sqlite' table=&quot;teste&quot; (geometria) sql=" name="teste">
+    <layer-tree-layer expanded="1" providerKey="spatialite" checked="Qt::Checked" id="teste20180224120534000" source="dbname='C:/projetos/projetos_qgis/QGIS-Web-Client/data/dbteste.sqlite' table=&quot;teste&quot; (geometria) sql=" name="teste">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -37,13 +37,13 @@
   </mapcanvas>
   <layer-tree-canvas>
     <custom-order enabled="0">
-      <item>teste20180224104436467</item>
+      <item>teste20180224120534000</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="teste" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="teste20180224104436467" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="teste20180224120534000" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -55,8 +55,8 @@
         <xmax>-4901152.5</xmax>
         <ymax>-2566899.75</ymax>
       </extent>
-      <id>teste20180224104436467</id>
-      <datasource>dbname='./dbteste.sqlite' table="teste" (geometria) sql=</datasource>
+      <id>teste20180224120534000</id>
+      <datasource>dbname='../data/dbteste.sqlite' table="teste" (geometria) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -93,7 +93,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="23,149,217,255"/>
+              <prop k="color" v="170,204,15,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -144,7 +144,7 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="939023840">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="622935704">
         <columns/>
       </attributetableconfig>
       <editform></editform>
